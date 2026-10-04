@@ -29,9 +29,9 @@ You can also group stuff inside groups, recursively! So `{{{{Also works}}}}`.\
  To actually use the curly braces, you will have to escape them with a backslash, like `\{` and `\}`.
 
 - <b>Math</b>:
-    - Fractions: `\frac{numerator}{denominator}`.
+    - Fractions: `\frac{numerator}{denominator}`. Can use `\atop{up}{down}` to get a fraction like object without a line.
     - Roots: `\sqrt{content}` for square root, and `\root{index}{content}` for n-th root.
-    - Brackets and Delimiters: `\left{bracket}{content}` and `\right{bracket}{content}`.\
+    - Brackets and Delimiters: `\left{bracket}{content}`, `\right{bracket}{content}`, `\lr{bracket1bracket2}{content}`.\
     The brackets will scale to the height of the content. You can use `\{` and `\}` for curly braces, and `\langle` and `\rangle` for angle brackets.\
     This is useful for things like piecewise functions, or making matrices (below).
     
@@ -46,7 +46,16 @@ You can also group stuff inside groups, recursively! So `{{{{Also works}}}}`.\
         </m-eq>
         ```
         (Here, the right bracket is scaled to the height of the matrix, and the left bracket is scaled to the height of the right bracket, which is the same as the height of the matrix.)\
-        There is no matrix command, so this is how they are made.
+        There is no matrix command, so this is how they are made.\
+        Can also do
+        ```html
+        <m-eq>\lr{()}{\atop{n}{r}}</m-eq>
+        is equivalent to
+        <m-eq>\lr{(}{\atop{n}{r}}</m-eq> <!-- lr can recognize the corresponding right bracket for some symbols -->
+        is equivalent to
+        <m-eq>\lr({\atop{n}{r}}</m-eq>
+        ```
+        
     - Overline and Underline:
         - `\overline{content}`: Draws a horizontal line above the content. Shorter or taller text/content will auto adjust the line position.
         - `\underline{content}`: Draws a horizontal line below the content. 
