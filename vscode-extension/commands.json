@@ -1,0 +1,1982 @@
+[
+  {
+    "name": "sum",
+    "glyph": "Σ",
+    "doc": "Sum with scripts at the side. Use `\\sumb` for scripts above/below."
+  },
+  {
+    "name": "Sigma",
+    "aliases": ["sumb", "S"],
+    "glyph": "Σ"
+  },
+  {
+    "name": "prod",
+    "glyph": "∏",
+    "doc": "Product with scripts at the side. Use `\\prodb` for scripts above/below."
+  },
+  {
+    "name": "prodb",
+    "glyph": "∏"
+  },
+  {
+    "name": "bigcup",
+    "aliases": ["union"],
+    "glyph": "∪"
+  },
+  {
+    "name": "cup",
+    "glyph": "∪",
+    "doc": "Union with scripts at the side. Use `\\union` / `\\bigcup` for scripts above/below."
+  },
+  {
+    "name": "intersect",
+    "aliases": ["bigcap"],
+    "glyph": "∩"
+  },
+  {
+    "name": "cap",
+    "glyph": "∩",
+    "doc": "Intersection with scripts at the side. Use `\\intersect` / `\\bigcap` for scripts above/below."
+  },
+  {
+    "name": "alpha",
+    "aliases": ["a"],
+    "glyph": "α"
+  },
+  {
+    "name": "beta",
+    "aliases": ["b"],
+    "glyph": "β"
+  },
+  {
+    "name": "gamma",
+    "aliases": ["g"],
+    "glyph": "γ"
+  },
+  {
+    "name": "delta",
+    "aliases": ["d"],
+    "glyph": "δ"
+  },
+  {
+    "name": "epsilon",
+    "aliases": ["e"],
+    "glyph": "ε"
+  },
+  {
+    "name": "zeta",
+    "aliases": ["z"],
+    "glyph": "ζ"
+  },
+  {
+    "name": "eta",
+    "aliases": ["h"],
+    "glyph": "η"
+  },
+  {
+    "name": "theta",
+    "aliases": ["th"],
+    "glyph": "θ"
+  },
+  {
+    "name": "iota",
+    "aliases": ["i"],
+    "glyph": "ι"
+  },
+  {
+    "name": "kappa",
+    "aliases": ["k"],
+    "glyph": "κ"
+  },
+  {
+    "name": "lambda",
+    "aliases": ["l"],
+    "glyph": "λ"
+  },
+  {
+    "name": "mu",
+    "aliases": ["m"],
+    "glyph": "μ"
+  },
+  {
+    "name": "nu",
+    "aliases": ["n"],
+    "glyph": "ν"
+  },
+  {
+    "name": "xi",
+    "aliases": ["x"],
+    "glyph": "ξ"
+  },
+  {
+    "name": "omicron",
+    "aliases": ["o"],
+    "glyph": "ο"
+  },
+  {
+    "name": "pi",
+    "aliases": ["p"],
+    "glyph": "π"
+  },
+  {
+    "name": "rho",
+    "aliases": ["r"],
+    "glyph": "ρ"
+  },
+  {
+    "name": "sigma",
+    "aliases": ["s"],
+    "glyph": "σ"
+  },
+  {
+    "name": "tau",
+    "aliases": ["t"],
+    "glyph": "τ"
+  },
+  {
+    "name": "upsilon",
+    "aliases": ["u"],
+    "glyph": "υ"
+  },
+  {
+    "name": "phi",
+    "aliases": ["f"],
+    "glyph": "φ"
+  },
+  {
+    "name": "chi",
+    "aliases": ["c"],
+    "glyph": "χ"
+  },
+  {
+    "name": "psi",
+    "aliases": ["ps"],
+    "glyph": "ψ"
+  },
+  {
+    "name": "omega",
+    "glyph": "ω"
+  },
+  {
+    "name": "Alpha",
+    "aliases": ["A"],
+    "glyph": "Α"
+  },
+  {
+    "name": "Beta",
+    "aliases": ["B"],
+    "glyph": "Β"
+  },
+  {
+    "name": "Gamma",
+    "aliases": ["G"],
+    "glyph": "Γ"
+  },
+  {
+    "name": "Delta",
+    "aliases": ["D"],
+    "glyph": "Δ"
+  },
+  {
+    "name": "Epsilon",
+    "aliases": ["E"],
+    "glyph": "Ε"
+  },
+  {
+    "name": "Zeta",
+    "aliases": ["Z"],
+    "glyph": "Ζ"
+  },
+  {
+    "name": "Eta",
+    "aliases": ["H"],
+    "glyph": "Η"
+  },
+  {
+    "name": "Theta",
+    "aliases": ["Th"],
+    "glyph": "Θ"
+  },
+  {
+    "name": "Iota",
+    "aliases": ["I"],
+    "glyph": "Ι"
+  },
+  {
+    "name": "Kappa",
+    "aliases": ["K"],
+    "glyph": "Κ"
+  },
+  {
+    "name": "Lambda",
+    "aliases": ["L"],
+    "glyph": "Λ"
+  },
+  {
+    "name": "Mu",
+    "aliases": ["M"],
+    "glyph": "Μ"
+  },
+  {
+    "name": "Nu",
+    "aliases": ["N"],
+    "glyph": "Ν"
+  },
+  {
+    "name": "Xi",
+    "aliases": ["X"],
+    "glyph": "Ξ"
+  },
+  {
+    "name": "Omicron",
+    "aliases": ["O"],
+    "glyph": "Ο"
+  },
+  {
+    "name": "Pi",
+    "aliases": ["P"],
+    "glyph": "Π"
+  },
+  {
+    "name": "Rho",
+    "aliases": ["R"],
+    "glyph": "Ρ"
+  },
+  {
+    "name": "Tau",
+    "aliases": ["T"],
+    "glyph": "Τ"
+  },
+  {
+    "name": "Upsilon",
+    "aliases": ["U"],
+    "glyph": "Υ"
+  },
+  {
+    "name": "Phi",
+    "aliases": ["F"],
+    "glyph": "Φ"
+  },
+  {
+    "name": "Chi",
+    "aliases": ["C"],
+    "glyph": "Χ"
+  },
+  {
+    "name": "Psi",
+    "aliases": ["Ps"],
+    "glyph": "Ψ"
+  },
+  {
+    "name": "Omega",
+    "glyph": "Ω"
+  },
+  {
+    "name": "equals",
+    "aliases": ["eq", "equal"],
+    "glyph": "="
+  },
+  {
+    "name": "lt",
+    "glyph": "<"
+  },
+  {
+    "name": "leq",
+    "glyph": "≤"
+  },
+  {
+    "name": "gt",
+    "glyph": ">"
+  },
+  {
+    "name": "geq",
+    "glyph": "≥"
+  },
+  {
+    "name": "neq",
+    "glyph": "≠"
+  },
+  {
+    "name": "times",
+    "aliases": ["cross"],
+    "glyph": "×"
+  },
+  {
+    "name": "div",
+    "glyph": "÷"
+  },
+  {
+    "name": "pm",
+    "glyph": "±"
+  },
+  {
+    "name": "mp",
+    "glyph": "∓"
+  },
+  {
+    "name": "cdot",
+    "glyph": "⋅"
+  },
+  {
+    "name": "rightarrow",
+    "aliases": ["to"],
+    "glyph": "→"
+  },
+  {
+    "name": "infty",
+    "glyph": "∞"
+  },
+  {
+    "name": "approx",
+    "glyph": "≈"
+  },
+  {
+    "name": "cong",
+    "glyph": "≅"
+  },
+  {
+    "name": "equiv",
+    "glyph": "≡"
+  },
+  {
+    "name": "sim",
+    "glyph": "∼"
+  },
+  {
+    "name": "simeq",
+    "glyph": "≃"
+  },
+  {
+    "name": "nequiv",
+    "glyph": "≢"
+  },
+  {
+    "name": "ncong",
+    "glyph": "≇"
+  },
+  {
+    "name": "nsim",
+    "glyph": "≁"
+  },
+  {
+    "name": "nsimeq",
+    "glyph": "≄"
+  },
+  {
+    "name": "napprox",
+    "glyph": "≉"
+  },
+  {
+    "name": "propto",
+    "aliases": ["prop"],
+    "glyph": "∝"
+  },
+  {
+    "name": "in",
+    "glyph": "∈"
+  },
+  {
+    "name": "notin",
+    "glyph": "∉"
+  },
+  {
+    "name": "subset",
+    "glyph": "⊂"
+  },
+  {
+    "name": "subseteq",
+    "glyph": "⊆"
+  },
+  {
+    "name": "subsetneq",
+    "glyph": "⊊"
+  },
+  {
+    "name": "supset",
+    "glyph": "⊃"
+  },
+  {
+    "name": "supseteq",
+    "glyph": "⊇"
+  },
+  {
+    "name": "supsetneq",
+    "glyph": "⊋"
+  },
+  {
+    "name": "int",
+    "glyph": "∫",
+    "doc": "Integral with scripts at the side. Use `\\intb` for scripts above/below."
+  },
+  {
+    "name": "intb",
+    "glyph": "∫"
+  },
+  {
+    "name": "iint",
+    "glyph": "∬"
+  },
+  {
+    "name": "iiint",
+    "glyph": "∭"
+  },
+  {
+    "name": "oint",
+    "glyph": "∮"
+  },
+  {
+    "name": "sqrt",
+    "glyph": "√",
+    "snippet": "\\sqrt{${1:content}}",
+    "doc": "Square root: `\\sqrt{content}`. For an n-th root use `\\root{index}{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the root is taken of." }
+    ]
+  },
+  {
+    "name": "leftarrow",
+    "aliases": ["gets"],
+    "glyph": "←"
+  },
+  {
+    "name": "uparrow",
+    "glyph": "↑"
+  },
+  {
+    "name": "downarrow",
+    "glyph": "↓"
+  },
+  {
+    "name": "leftrightarrow",
+    "glyph": "↔"
+  },
+  {
+    "name": "rightleftharpoons",
+    "aliases": ["rightleftarrows", "equilibrium"],
+    "glyph": "⇌"
+  },
+  {
+    "name": "mapsto",
+    "glyph": "↦"
+  },
+  {
+    "name": "LeftRightarrow",
+    "aliases": ["equivalent", "iff", "Leftrightarrow"],
+    "glyph": "⇔"
+  },
+  {
+    "name": "Rightarrow",
+    "aliases": ["implies"],
+    "glyph": "⇒"
+  },
+  {
+    "name": "Leftarrow",
+    "glyph": "⇐"
+  },
+  {
+    "name": "Uparrow",
+    "glyph": "⇑"
+  },
+  {
+    "name": "Downarrow",
+    "glyph": "⇓"
+  },
+  {
+    "name": "Longrightarrow",
+    "aliases": ["longrightarrow"],
+    "glyph": "⟶"
+  },
+  {
+    "name": "Longleftarrow",
+    "aliases": ["longleftarrow"],
+    "glyph": "⟵"
+  },
+  {
+    "name": "Longleftrightarrow",
+    "aliases": ["longleftrightarrow"],
+    "glyph": "⟷"
+  },
+  {
+    "name": "Longmapsto",
+    "aliases": ["longmapsto"],
+    "glyph": "⟼"
+  },
+  {
+    "name": "LongLeftarrow",
+    "aliases": ["impliedby"],
+    "glyph": "⟸"
+  },
+  {
+    "name": "LongRightarrow",
+    "glyph": "⟹"
+  },
+  {
+    "name": "LongEquiv",
+    "glyph": "⟺"
+  },
+  {
+    "name": "rightsquigarrow",
+    "glyph": "⇝"
+  },
+  {
+    "name": "leftsquigarrow",
+    "glyph": "⇜"
+  },
+  {
+    "name": "leftrightsquigarrow",
+    "glyph": "↭"
+  },
+  {
+    "name": "nleftarrow",
+    "glyph": "↚"
+  },
+  {
+    "name": "nrightarrow",
+    "glyph": "↛"
+  },
+  {
+    "name": "nleftrightarrow",
+    "glyph": "↮"
+  },
+  {
+    "name": "nLeftarrow",
+    "glyph": "⇍"
+  },
+  {
+    "name": "nRightarrow",
+    "glyph": "⇏"
+  },
+  {
+    "name": "nLeftrightarrow",
+    "glyph": "⇎"
+  },
+  {
+    "name": "updownarrow",
+    "glyph": "↕"
+  },
+  {
+    "name": "Updownarrow",
+    "glyph": "⇕"
+  },
+  {
+    "name": "nwarrow",
+    "glyph": "↖"
+  },
+  {
+    "name": "nearrow",
+    "glyph": "↗"
+  },
+  {
+    "name": "searrow",
+    "glyph": "↘"
+  },
+  {
+    "name": "swarrow",
+    "glyph": "↙"
+  },
+  {
+    "name": "Nwarrow",
+    "glyph": "⇖"
+  },
+  {
+    "name": "Nearrow",
+    "glyph": "⇗"
+  },
+  {
+    "name": "Searrow",
+    "glyph": "⇘"
+  },
+  {
+    "name": "Swarrow",
+    "glyph": "⇙"
+  },
+  {
+    "name": "mappedfrom",
+    "aliases": ["mapsfrom"],
+    "glyph": "↤"
+  },
+  {
+    "name": "mapsup",
+    "aliases": ["MapsUp"],
+    "glyph": "↥"
+  },
+  {
+    "name": "mapsdown",
+    "aliases": ["MapsDown"],
+    "glyph": "↧"
+  },
+  {
+    "name": "Mappedfrom",
+    "aliases": ["Mapsfrom"],
+    "glyph": "⤆"
+  },
+  {
+    "name": "Mapsto",
+    "glyph": "⤇"
+  },
+  {
+    "name": "longmappedfrom",
+    "aliases": ["longmapsfrom"],
+    "glyph": "⟻"
+  },
+  {
+    "name": "Longmappedfrom",
+    "aliases": ["Longmapsfrom"],
+    "glyph": "⟽"
+  },
+  {
+    "name": "twoheadmapsto",
+    "glyph": "⤅"
+  },
+  {
+    "name": "twoheadmapsfrom",
+    "glyph": "⬶"
+  },
+  {
+    "name": "longrightsquigarrow",
+    "glyph": "⟿"
+  },
+  {
+    "name": "longleftsquigarrow",
+    "glyph": "⬳"
+  },
+  {
+    "name": "Lleftarrow",
+    "glyph": "⇚"
+  },
+  {
+    "name": "Rrightarrow",
+    "glyph": "⇛"
+  },
+  {
+    "name": "upuparrows",
+    "glyph": "⇈"
+  },
+  {
+    "name": "downdownarrows",
+    "glyph": "⇊"
+  },
+  {
+    "name": "leftleftarrows",
+    "glyph": "⇇"
+  },
+  {
+    "name": "rightrightarrows",
+    "glyph": "⇉"
+  },
+  {
+    "name": "leftrightarrows",
+    "glyph": "⇆"
+  },
+  {
+    "name": "rightleftarrow",
+    "glyph": "⇄"
+  },
+  {
+    "name": "uparrowdownarrow",
+    "aliases": ["updownarrows"],
+    "glyph": "⇅"
+  },
+  {
+    "name": "downarrowuparrow",
+    "aliases": ["downuparrows"],
+    "glyph": "⇵"
+  },
+  {
+    "name": "rightthreearrows",
+    "glyph": "⇶"
+  },
+  {
+    "name": "leftthreearrows",
+    "glyph": "⬱"
+  },
+  {
+    "name": "rightarrowshortleftarrow",
+    "glyph": "⥂"
+  },
+  {
+    "name": "leftarrowshortrightarrow",
+    "glyph": "⥃"
+  },
+  {
+    "name": "shortrightarrowleftarrow",
+    "glyph": "⥄"
+  },
+  {
+    "name": "barleftarrowrightarrowba",
+    "glyph": "↹"
+  },
+  {
+    "name": "leftarrowtail",
+    "glyph": "↢"
+  },
+  {
+    "name": "rightarrowtail",
+    "glyph": "↣"
+  },
+  {
+    "name": "looparrowleft",
+    "glyph": "↫"
+  },
+  {
+    "name": "looparrowright",
+    "glyph": "↬"
+  },
+  {
+    "name": "hookleftarrow",
+    "glyph": "↩"
+  },
+  {
+    "name": "hookrightarrow",
+    "glyph": "↪"
+  },
+  {
+    "name": "curvearrowleft",
+    "glyph": "↶"
+  },
+  {
+    "name": "curvearrowright",
+    "glyph": "↷"
+  },
+  {
+    "name": "acwopencirclearrow",
+    "aliases": ["circlearrowleft"],
+    "glyph": "↺"
+  },
+  {
+    "name": "cwopencirclearrow",
+    "aliases": ["circlearrowright"],
+    "glyph": "↻"
+  },
+  {
+    "name": "Lsh",
+    "glyph": "↰"
+  },
+  {
+    "name": "Rsh",
+    "glyph": "↱"
+  },
+  {
+    "name": "ldsh",
+    "aliases": ["dlsh", "Ldsh"],
+    "glyph": "↲"
+  },
+  {
+    "name": "rdsh",
+    "aliases": ["drsh", "Rdsh"],
+    "glyph": "↳"
+  },
+  {
+    "name": "carriagereturn",
+    "glyph": "↵"
+  },
+  {
+    "name": "barovernorthwestarrow",
+    "glyph": "↸"
+  },
+  {
+    "name": "downzigzagarrow",
+    "aliases": ["lightning", "Lightning"],
+    "glyph": "↯"
+  },
+  {
+    "name": "leftwavearrow",
+    "glyph": "↜"
+  },
+  {
+    "name": "rightwavearrow",
+    "glyph": "↝"
+  },
+  {
+    "name": "updownarrowbar",
+    "glyph": "↨"
+  },
+  {
+    "name": "twoheadleftarrow",
+    "glyph": "↞"
+  },
+  {
+    "name": "twoheaduparrow",
+    "glyph": "↟"
+  },
+  {
+    "name": "twoheadrightarrow",
+    "glyph": "↠"
+  },
+  {
+    "name": "twoheaddownarrow",
+    "glyph": "↡"
+  },
+  {
+    "name": "twoheadrightarrowtail",
+    "glyph": "⤖"
+  },
+  {
+    "name": "twoheadleftarrowtail",
+    "glyph": "⬻"
+  },
+  {
+    "name": "twoheadleftdbkarrow",
+    "glyph": "⬷"
+  },
+  {
+    "name": "leftdasharrow",
+    "aliases": ["dashleftarrow"],
+    "glyph": "⇠"
+  },
+  {
+    "name": "updasharrow",
+    "glyph": "⇡"
+  },
+  {
+    "name": "rightdasharrow",
+    "aliases": ["dashrightarrow", "dasharrow"],
+    "glyph": "⇢"
+  },
+  {
+    "name": "downdasharrow",
+    "glyph": "⇣"
+  },
+  {
+    "name": "barleftarrow",
+    "aliases": ["LeftArrowBar"],
+    "glyph": "⇤"
+  },
+  {
+    "name": "rightarrowbar",
+    "aliases": ["RightArrowBar"],
+    "glyph": "⇥"
+  },
+  {
+    "name": "leftwhitearrow",
+    "glyph": "⇦"
+  },
+  {
+    "name": "upwhitearrow",
+    "glyph": "⇧"
+  },
+  {
+    "name": "rightwhitearrow",
+    "glyph": "⇨"
+  },
+  {
+    "name": "downwhitearrow",
+    "glyph": "⇩"
+  },
+  {
+    "name": "whitearrowupfrombar",
+    "glyph": "⇪"
+  },
+  {
+    "name": "circleonrightarrow",
+    "glyph": "⇴"
+  },
+  {
+    "name": "rightarrowtriangle",
+    "glyph": "⇾"
+  },
+  {
+    "name": "leftarrowtriangle",
+    "glyph": "⇽"
+  },
+  {
+    "name": "leftrightarrowtriangle",
+    "glyph": "⇿"
+  },
+  {
+    "name": "nvleftarrow",
+    "glyph": "⇷"
+  },
+  {
+    "name": "nvrightarrow",
+    "glyph": "⇸"
+  },
+  {
+    "name": "nvleftrightarrow",
+    "glyph": "⇹"
+  },
+  {
+    "name": "nVleftarrow",
+    "glyph": "⇺"
+  },
+  {
+    "name": "nVrightarrow",
+    "glyph": "⇻"
+  },
+  {
+    "name": "nVleftrightarrow",
+    "glyph": "⇼"
+  },
+  {
+    "name": "nvLeftarrow",
+    "glyph": "⤂"
+  },
+  {
+    "name": "nvRightarrow",
+    "glyph": "⤃"
+  },
+  {
+    "name": "nvLeftrightarrow",
+    "glyph": "⤄"
+  },
+  {
+    "name": "leftharpoonup",
+    "glyph": "↼"
+  },
+  {
+    "name": "leftharpoondown",
+    "glyph": "↽"
+  },
+  {
+    "name": "upharpoonrightup",
+    "aliases": ["upharpoonright"],
+    "glyph": "↾"
+  },
+  {
+    "name": "upharpoonleftup",
+    "aliases": ["upharpoonleft"],
+    "glyph": "↿"
+  },
+  {
+    "name": "rightharpoonup",
+    "glyph": "⇀"
+  },
+  {
+    "name": "rightharpoondown",
+    "glyph": "⇁"
+  },
+  {
+    "name": "upharpoonrightdown",
+    "aliases": ["downharpoonright"],
+    "glyph": "⇂"
+  },
+  {
+    "name": "upharpoonleftdown",
+    "aliases": ["downharpoonleft"],
+    "glyph": "⇃"
+  },
+  {
+    "name": "leftrightharpoons",
+    "aliases": ["revequilibrium"],
+    "glyph": "⇋"
+  },
+  {
+    "name": "leftrightharpoonupdown",
+    "aliases": ["leftrightharpoon"],
+    "glyph": "⥊"
+  },
+  {
+    "name": "leftrightharpoondownup",
+    "aliases": ["rightleftharpoon"],
+    "glyph": "⥋"
+  },
+  {
+    "name": "updownharpoonrightleft",
+    "glyph": "⥌"
+  },
+  {
+    "name": "updownharpoonleftright",
+    "glyph": "⥍"
+  },
+  {
+    "name": "leftrightharpoonupup",
+    "aliases": ["leftrightharpoonup"],
+    "glyph": "⥎"
+  },
+  {
+    "name": "updownharpoonrightright",
+    "aliases": ["rightupdownharpoon"],
+    "glyph": "⥏"
+  },
+  {
+    "name": "leftrightharpoondowndown",
+    "aliases": ["leftrightharpoondown"],
+    "glyph": "⥐"
+  },
+  {
+    "name": "updownharpoonleftleft",
+    "aliases": ["leftupdownharpoon"],
+    "glyph": "⥑"
+  },
+  {
+    "name": "barleftharpoonup",
+    "aliases": ["LeftVectorBar"],
+    "glyph": "⥒"
+  },
+  {
+    "name": "rightharpoonupbar",
+    "aliases": ["RightVectorBar"],
+    "glyph": "⥓"
+  },
+  {
+    "name": "barupharpoonright",
+    "aliases": ["RightUpVectorBar"],
+    "glyph": "⥔"
+  },
+  {
+    "name": "downharpoonrightbar",
+    "aliases": ["RightDownVectorBar"],
+    "glyph": "⥕"
+  },
+  {
+    "name": "barleftharpoondown",
+    "aliases": ["DownLeftVectorBar"],
+    "glyph": "⥖"
+  },
+  {
+    "name": "rightharpoondownbar",
+    "aliases": ["DownRightVectorBar"],
+    "glyph": "⥗"
+  },
+  {
+    "name": "barupharpoonleft",
+    "aliases": ["LeftUpVectorBar"],
+    "glyph": "⥘"
+  },
+  {
+    "name": "downharpoonleftbar",
+    "aliases": ["LeftDownVectorBar"],
+    "glyph": "⥙"
+  },
+  {
+    "name": "leftharpoonupbar",
+    "aliases": ["LeftTeeVector"],
+    "glyph": "⥚"
+  },
+  {
+    "name": "barrightharpoonup",
+    "aliases": ["RightTeeVector"],
+    "glyph": "⥛"
+  },
+  {
+    "name": "upharpoonrightbar",
+    "aliases": ["RightUpTeeVector"],
+    "glyph": "⥜"
+  },
+  {
+    "name": "bardownharpoonright",
+    "aliases": ["RightDownTeeVector"],
+    "glyph": "⥝"
+  },
+  {
+    "name": "leftharpoondownbar",
+    "aliases": ["DownLeftTeeVector"],
+    "glyph": "⥞"
+  },
+  {
+    "name": "barrightharpoondown",
+    "aliases": ["DownRightTeeVector"],
+    "glyph": "⥟"
+  },
+  {
+    "name": "upharpoonleftbar",
+    "aliases": ["LeftUpTeeVector"],
+    "glyph": "⥠"
+  },
+  {
+    "name": "bardownharpoonleft",
+    "aliases": ["LeftDownTeeVector"],
+    "glyph": "⥡"
+  },
+  {
+    "name": "leftharpoonsupdown",
+    "aliases": ["leftleftharpoons"],
+    "glyph": "⥢"
+  },
+  {
+    "name": "upharpoonsleftright",
+    "aliases": ["upupharpoons"],
+    "glyph": "⥣"
+  },
+  {
+    "name": "rightharpoonsupdown",
+    "aliases": ["rightrightharpoons"],
+    "glyph": "⥤"
+  },
+  {
+    "name": "downharpoonsleftright",
+    "aliases": ["downdownharpoons"],
+    "glyph": "⥥"
+  },
+  {
+    "name": "leftrightharpoonsup",
+    "glyph": "⥦"
+  },
+  {
+    "name": "leftrightharpoonsdown",
+    "glyph": "⥧"
+  },
+  {
+    "name": "rightleftharpoonsup",
+    "glyph": "⥨"
+  },
+  {
+    "name": "rightleftharpoonsdown",
+    "glyph": "⥩"
+  },
+  {
+    "name": "leftharpoonupdash",
+    "aliases": ["leftbarharpoon"],
+    "glyph": "⥪"
+  },
+  {
+    "name": "dashleftharpoondown",
+    "aliases": ["barleftharpoon"],
+    "glyph": "⥫"
+  },
+  {
+    "name": "rightharpoonupdash",
+    "aliases": ["rightbarharpoon"],
+    "glyph": "⥬"
+  },
+  {
+    "name": "dashrightharpoondown",
+    "aliases": ["barrightharpoon"],
+    "glyph": "⥭"
+  },
+  {
+    "name": "updownharpoonsleftright",
+    "aliases": ["upequilibrium", "updownharpoons"],
+    "glyph": "⥮"
+  },
+  {
+    "name": "downupharpoonsleftright",
+    "aliases": ["uprevequilibrium", "downupharpoons"],
+    "glyph": "⥯"
+  },
+  {
+    "name": "nvrightarrowtail",
+    "glyph": "⤔"
+  },
+  {
+    "name": "nVrightarrowtail",
+    "glyph": "⤕"
+  },
+  {
+    "name": "nvtwoheadrightarrow",
+    "glyph": "⤀"
+  },
+  {
+    "name": "nVtwoheadrightarrow",
+    "glyph": "⤁"
+  },
+  {
+    "name": "nvtwoheadrightarrowtail",
+    "glyph": "⤗"
+  },
+  {
+    "name": "nVtwoheadrightarrowtail",
+    "glyph": "⤘"
+  },
+  {
+    "name": "nvtwoheadleftarrow",
+    "glyph": "⬴"
+  },
+  {
+    "name": "nVtwoheadleftarrow",
+    "glyph": "⬵"
+  },
+  {
+    "name": "nvleftarrowtail",
+    "glyph": "⬹"
+  },
+  {
+    "name": "nVleftarrowtail",
+    "glyph": "⬺"
+  },
+  {
+    "name": "nvtwoheadleftarrowtail",
+    "glyph": "⬼"
+  },
+  {
+    "name": "nVtwoheadleftarrowtail",
+    "glyph": "⬽"
+  },
+  {
+    "name": "leftdotarrow",
+    "glyph": "⬸"
+  },
+  {
+    "name": "rightdotarrow",
+    "glyph": "⤑"
+  },
+  {
+    "name": "leftbkarrow",
+    "glyph": "⤌"
+  },
+  {
+    "name": "rightbkarrow",
+    "glyph": "⤍"
+  },
+  {
+    "name": "leftdbkarrow",
+    "glyph": "⤎"
+  },
+  {
+    "name": "rightdbkarrow",
+    "aliases": ["dbkarow"],
+    "glyph": "⤏"
+  },
+  {
+    "name": "drbkarrow",
+    "aliases": ["drbkarow"],
+    "glyph": "⤐"
+  },
+  {
+    "name": "uparrowbarred",
+    "glyph": "⤉"
+  },
+  {
+    "name": "downarrowbarred",
+    "glyph": "⤈"
+  },
+  {
+    "name": "baruparrow",
+    "aliases": ["UpArrowBar"],
+    "glyph": "⤒"
+  },
+  {
+    "name": "downarrowbar",
+    "aliases": ["DownArrowBar"],
+    "glyph": "⤓"
+  },
+  {
+    "name": "leftdbltail",
+    "glyph": "⤛"
+  },
+  {
+    "name": "rightdbltail",
+    "glyph": "⤜"
+  },
+  {
+    "name": "diamondleftarrow",
+    "glyph": "⤝"
+  },
+  {
+    "name": "rightarrowdiamond",
+    "glyph": "⤞"
+  },
+  {
+    "name": "diamondleftarrowbar",
+    "glyph": "⤟"
+  },
+  {
+    "name": "barrightarrowdiamond",
+    "glyph": "⤠"
+  },
+  {
+    "name": "leftquaddarrow",
+    "aliases": ["LLeftarrow"],
+    "glyph": "⭅"
+  },
+  {
+    "name": "rightquaddarrow",
+    "aliases": ["RRightarrow"],
+    "glyph": "⭆"
+  },
+  {
+    "name": "rightcurvedarrow",
+    "aliases": ["leadsto"],
+    "glyph": "⤳"
+  },
+  {
+    "name": "uprightcurvearrow",
+    "glyph": "⤴"
+  },
+  {
+    "name": "downrightcurvedarrow",
+    "glyph": "⤵"
+  },
+  {
+    "name": "leftdowncurvedarrow",
+    "glyph": "⤶"
+  },
+  {
+    "name": "rightdowncurvedarrow",
+    "glyph": "⤷"
+  },
+  {
+    "name": "cwrightarcarrow",
+    "glyph": "⤸"
+  },
+  {
+    "name": "acwleftarcarrow",
+    "glyph": "⤹"
+  },
+  {
+    "name": "acwoverarcarrow",
+    "glyph": "⤺"
+  },
+  {
+    "name": "acwunderarcarrow",
+    "glyph": "⤻"
+  },
+  {
+    "name": "curvearrowrightminus",
+    "glyph": "⤼"
+  },
+  {
+    "name": "curvearrowleftplus",
+    "glyph": "⤽"
+  },
+  {
+    "name": "cwundercurvearrow",
+    "glyph": "⤾"
+  },
+  {
+    "name": "ccwundercurvearrow",
+    "glyph": "⤿"
+  },
+  {
+    "name": "leftcurvedarrow",
+    "glyph": "⬿"
+  },
+  {
+    "name": "fdiagovnearrow",
+    "glyph": "⤯"
+  },
+  {
+    "name": "rdiagovsearrow",
+    "glyph": "⤰"
+  },
+  {
+    "name": "acwgapcirclearrow",
+    "glyph": "⟲"
+  },
+  {
+    "name": "cwgapcirclearrow",
+    "glyph": "⟳"
+  },
+  {
+    "name": "acwcirclearrow",
+    "glyph": "⥀"
+  },
+  {
+    "name": "cwcirclearrow",
+    "glyph": "⥁"
+  },
+  {
+    "name": "leftrightarrowcircle",
+    "glyph": "⥈"
+  },
+  {
+    "name": "twoheaduparrowcircle",
+    "glyph": "⥉"
+  },
+  {
+    "name": "rightarrowonoplus",
+    "glyph": "⟴"
+  },
+  {
+    "name": "leftarrowonoplus",
+    "glyph": "⬲"
+  },
+  {
+    "name": "circleonleftarrow",
+    "glyph": "⬰"
+  },
+  {
+    "name": "uparrowoncircle",
+    "glyph": "⦽"
+  },
+  {
+    "name": "circledownarrow",
+    "glyph": "⧬"
+  },
+  {
+    "name": "blackcircledownarrow",
+    "glyph": "⧭"
+  },
+  {
+    "name": "blackdiamonddownarrow",
+    "glyph": "⧪"
+  },
+  {
+    "name": "rangledownzigzagarrow",
+    "glyph": "⍼"
+  },
+  {
+    "name": "rightarrowplus",
+    "glyph": "⥅"
+  },
+  {
+    "name": "leftarrowplus",
+    "glyph": "⥆"
+  },
+  {
+    "name": "similarrightarrow",
+    "glyph": "⥲"
+  },
+  {
+    "name": "leftarrowsimilar",
+    "glyph": "⥳"
+  },
+  {
+    "name": "rightarrowsimilar",
+    "glyph": "⥴"
+  },
+  {
+    "name": "rightarrowapprox",
+    "glyph": "⥵"
+  },
+  {
+    "name": "leftarrowless",
+    "glyph": "⥷"
+  },
+  {
+    "name": "leftarrowsubset",
+    "glyph": "⥺"
+  },
+  {
+    "name": "equalrightarrow",
+    "glyph": "⥱"
+  },
+  {
+    "name": "equalleftarrow",
+    "glyph": "⭀"
+  },
+  {
+    "name": "bsimilarleftarrow",
+    "glyph": "⭁"
+  },
+  {
+    "name": "leftarrowbackapprox",
+    "glyph": "⭂"
+  },
+  {
+    "name": "rightarrowgtr",
+    "glyph": "⭃"
+  },
+  {
+    "name": "rightarrowsupset",
+    "glyph": "⭄"
+  },
+  {
+    "name": "bsimilarrightarrow",
+    "glyph": "⭇"
+  },
+  {
+    "name": "rightarrowbackapprox",
+    "glyph": "⭈"
+  },
+  {
+    "name": "similarleftarrow",
+    "glyph": "⭉"
+  },
+  {
+    "name": "leftarrowapprox",
+    "glyph": "⭊"
+  },
+  {
+    "name": "leftarrowbsimilar",
+    "glyph": "⭋"
+  },
+  {
+    "name": "rightarrowbsimilar",
+    "glyph": "⭌"
+  },
+  {
+    "name": "draftingarrow",
+    "glyph": "➛"
+  },
+  {
+    "name": "overleftarrow",
+    "glyph": "⃖"
+  },
+  {
+    "name": "overrightarrow",
+    "glyph": "⃗"
+  },
+  {
+    "name": "overleftrightarrow",
+    "glyph": "⃡"
+  },
+  {
+    "name": "leftharpoonaccent",
+    "glyph": "⃐"
+  },
+  {
+    "name": "rightharpoonaccent",
+    "glyph": "⃑"
+  },
+  {
+    "name": "underrightharpoondown",
+    "glyph": "⃬"
+  },
+  {
+    "name": "underleftharpoondown",
+    "glyph": "⃭"
+  },
+  {
+    "name": "underleftarrow",
+    "glyph": "⃮"
+  },
+  {
+    "name": "underrightarrow",
+    "glyph": "⃯"
+  },
+  {
+    "name": "nHdownarrow",
+    "glyph": "⇟"
+  },
+  {
+    "name": "seovnearrow",
+    "glyph": "⤭"
+  },
+  {
+    "name": "neovsearrow",
+    "glyph": "⤮"
+  },
+  {
+    "name": "neovnwarrow",
+    "glyph": "⤱"
+  },
+  {
+    "name": "nwovnearrow",
+    "glyph": "⤲"
+  },
+  {
+    "name": "rightarrowx",
+    "glyph": "⥇"
+  },
+  {
+    "name": "DDownarrow",
+    "glyph": "⟱"
+  },
+  {
+    "name": "Ddownarrow",
+    "glyph": "⤋"
+  },
+  {
+    "name": "rightimply",
+    "glyph": "⥰"
+  },
+  {
+    "name": "leftarrowx",
+    "glyph": "⬾"
+  },
+  {
+    "name": "nHuparrow",
+    "glyph": "⇞"
+  },
+  {
+    "name": "righttail",
+    "glyph": "⤚"
+  },
+  {
+    "name": "nwsearrow",
+    "glyph": "⤡"
+  },
+  {
+    "name": "neswarrow",
+    "glyph": "⤢"
+  },
+  {
+    "name": "hknwarrow",
+    "glyph": "⤣"
+  },
+  {
+    "name": "hknearrow",
+    "glyph": "⤤"
+  },
+  {
+    "name": "linefeed",
+    "glyph": "↴"
+  },
+  {
+    "name": "UUparrow",
+    "glyph": "⟰"
+  },
+  {
+    "name": "Uuparrow",
+    "glyph": "⤊"
+  },
+  {
+    "name": "lefttail",
+    "glyph": "⤙"
+  },
+  {
+    "name": "hksearow",
+    "glyph": "⤥"
+  },
+  {
+    "name": "hkswarow",
+    "glyph": "⤦"
+  },
+  {
+    "name": "subrarr",
+    "glyph": "⥹"
+  },
+  {
+    "name": "suplarr",
+    "glyph": "⥻"
+  },
+  {
+    "name": "ltlarr",
+    "glyph": "⥶"
+  },
+  {
+    "name": "gtrarr",
+    "glyph": "⥸"
+  },
+  {
+    "name": "^",
+    "glyph": "^"
+  },
+  {
+    "name": "_",
+    "glyph": "_"
+  },
+  {
+    "name": "\\",
+    "glyph": "\\"
+  },
+  {
+    "name": "forall",
+    "glyph": "∀"
+  },
+  {
+    "name": "exists",
+    "glyph": "∃"
+  },
+  {
+    "name": "therefore",
+    "glyph": "∴"
+  },
+  {
+    "name": "because",
+    "aliases": ["since"],
+    "glyph": "∵"
+  },
+  {
+    "name": "lfloor",
+    "glyph": "⌊"
+  },
+  {
+    "name": "rfloor",
+    "glyph": "⌋"
+  },
+  {
+    "name": "lceil",
+    "glyph": "⌈"
+  },
+  {
+    "name": "rceil",
+    "glyph": "⌉"
+  },
+  {
+    "name": "langle",
+    "glyph": "⟨"
+  },
+  {
+    "name": "rangle",
+    "glyph": "⟩"
+  },
+  {
+    "name": "over",
+    "snippet": "\\over{${1:top}}{${2:main}}",
+    "doc": "Place the first argument directly over the second: `\\over{top}{main}`.",
+    "params": [
+      { "label": "top", "doc": "Content placed above." },
+      { "label": "main", "doc": "The element it sits over." }
+    ]
+  },
+  {
+    "name": "under",
+    "snippet": "\\under{${1:bottom}}{${2:main}}",
+    "doc": "Place the first argument directly under the second: `\\under{bottom}{main}`.",
+    "params": [
+      { "label": "bottom", "doc": "Content placed below." },
+      { "label": "main", "doc": "The element it sits under." }
+    ]
+  },
+  {
+    "name": "cancel",
+    "snippet": "\\cancel{${1:content}}",
+    "doc": "Strikethrough from top right to bottom left.",
+    "params": [
+      { "label": "content", "doc": "Content to cross out." }
+    ]
+  },
+  {
+    "name": "cancelangle",
+    "snippet": "\\cancelangle{${1:angle}}{${2:content}}",
+    "doc": "Strikethrough at a custom angle.",
+    "params": [
+      { "label": "angle", "doc": "Angle in degrees." },
+      { "label": "content", "doc": "Content to cross out." }
+    ]
+  },
+  {
+    "name": "canceldir",
+    "snippet": "\\canceldir{${1|tlbr,trbl,ud,lr|}}{$2}",
+    "doc": "Strikethrough in a chosen direction (`tlbr`, `trbl`, `ud`, `lr`, plus aliases like `diag`, `vert`, `horiz`).",
+    "params": [
+      { "label": "direction", "doc": "tlbr, trbl, ud or lr (see documentation for aliases)." },
+      { "label": "content", "doc": "Content to cross out." }
+    ]
+  },
+  {
+    "name": "frac",
+    "snippet": "\\frac{${1:numerator}}{${2:denominator}}",
+    "doc": "Fraction with a horizontal line: `\\frac{numerator}{denominator}`.",
+    "params": [
+      { "label": "numerator", "doc": "Top part." },
+      { "label": "denominator", "doc": "Bottom part." }
+    ]
+  },
+  {
+    "name": "atop",
+    "snippet": "\\atop{${1:top}}{${2:bottom}}",
+    "doc": "Like `\\frac`, but without the horizontal line.",
+    "params": [
+      { "label": "top", "doc": "Top part." },
+      { "label": "bottom", "doc": "Bottom part." }
+    ]
+  },
+  {
+    "name": "root",
+    "snippet": "\\root{${1:index}}{${2:content}}",
+    "doc": "N-th root: `\\root{index}{content}`.",
+    "params": [
+      { "label": "index", "doc": "The root index (e.g. 3 for a cube root)." },
+      { "label": "content", "doc": "What the root is taken of." }
+    ]
+  },
+  {
+    "name": "attach",
+    "snippet": "\\attach{$1}{$2}{$3}{$4}{$5}{$6}{$7}",
+    "doc": "Attach scripts around a main element. Leave unused slots empty: `\\attach{AB}{}{}{Above}{}{}{}`.",
+    "params": [
+      { "label": "main", "doc": "The element the scripts attach to." },
+      { "label": "top-right", "doc": "Superscript position (top right)." },
+      { "label": "bottom-right", "doc": "Subscript position (bottom right)." },
+      { "label": "top-left", "doc": "Top left script." },
+      { "label": "bottom-left", "doc": "Bottom left script." },
+      { "label": "up", "doc": "Placed directly above the main element." },
+      { "label": "down", "doc": "Placed directly below the main element." }
+    ]
+  },
+  {
+    "name": "attacho",
+    "snippet": "\\attacho{$1}{$2}{$3}{$4}{$5}{$6}{$7}{$8}",
+    "doc": "Like `\\attach`, with an extra overlap parameter.",
+    "params": [
+      { "label": "main", "doc": "The element the scripts attach to." },
+      { "label": "top-right", "doc": "Superscript position (top right)." },
+      { "label": "bottom-right", "doc": "Subscript position (bottom right)." },
+      { "label": "top-left", "doc": "Top left script." },
+      { "label": "bottom-left", "doc": "Bottom left script." },
+      { "label": "up", "doc": "Placed directly above the main element." },
+      { "label": "down", "doc": "Placed directly below the main element." },
+      { "label": "overlap", "doc": "Overlap in em that pulls the scripts closer to the main element (default 0.3em)." }
+    ]
+  },
+  {
+    "name": "attachos",
+    "snippet": "\\attachos{$1}{$2}{$3}{$4}{$5}{$6}{$7}{$8}{$9}",
+    "doc": "Like `\\attacho`, with an extra parameter for the scale of the attached elements.",
+    "params": [
+      { "label": "main", "doc": "The element the scripts attach to." },
+      { "label": "top-right", "doc": "Superscript position (top right)." },
+      { "label": "bottom-right", "doc": "Subscript position (bottom right)." },
+      { "label": "top-left", "doc": "Top left script." },
+      { "label": "bottom-left", "doc": "Bottom left script." },
+      { "label": "up", "doc": "Placed directly above the main element." },
+      { "label": "down", "doc": "Placed directly below the main element." },
+      { "label": "overlap", "doc": "Overlap in em that pulls the scripts closer to the main element (default 0.3em)." },
+      { "label": "scale", "doc": "Scale of the attached elements (default 0.6)." }
+    ]
+  },
+  {
+    "name": "left",
+    "snippet": "\\left{${1:bracket}}{${2:content}}",
+    "doc": "Left bracket that scales to the height of the content: `\\left{bracket}{content}`.",
+    "params": [
+      { "label": "bracket", "doc": "Which bracket to draw. Use `\\{` for a curly brace." },
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "right",
+    "snippet": "\\right{${1:bracket}}{${2:content}}",
+    "doc": "Right bracket that scales to the height of the content: `\\right{bracket}{content}`.",
+    "params": [
+      { "label": "bracket", "doc": "Which bracket to draw. Use `\\}` for a curly brace." },
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "lr",
+    "snippet": "\\lr{${1:brackets}}{${2:content}}",
+    "doc": "Bracket pair scaling with the content: `\\lr{bracket1bracket2}{content}`. For some brackets the closing one is inferred.",
+    "params": [
+      { "label": "brackets", "doc": "Both brackets, e.g. `()`. If several characters: first = left, rest = right." },
+      { "label": "content", "doc": "What the brackets scale with." }
+    ]
+  },
+  {
+    "name": "left[",
+    "snippet": "\\left[{${1:content}}",
+    "doc": "Left bracket `[`, scaled to the content. Written as `\\left[{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "right]",
+    "snippet": "\\right]{${1:content}}",
+    "doc": "Right bracket `]`, scaled to the content. Written as `\\right]{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "left(",
+    "snippet": "\\left({${1:content}}",
+    "doc": "Left bracket `(`, scaled to the content. Written as `\\left({content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "right)",
+    "snippet": "\\right){${1:content}}",
+    "doc": "Right bracket `)`, scaled to the content. Written as `\\right){content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "left{",
+    "snippet": "\\left{{${1:content}}",
+    "doc": "Left bracket `{`, scaled to the content. Written as `\\left{{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "right}",
+    "snippet": "\\right\\}{${1:content}}",
+    "doc": "Right bracket `}`, scaled to the content. Written as `\\right}{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "left|",
+    "snippet": "\\left|{${1:content}}",
+    "doc": "Left bracket `|`, scaled to the content. Written as `\\left|{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "right|",
+    "snippet": "\\right|{${1:content}}",
+    "doc": "Right bracket `|`, scaled to the content. Written as `\\right|{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "lr(",
+    "snippet": "\\lr({${1:content}}",
+    "doc": "Bracket pair opened by `(`, scaled to the content. Written as `\\lr({content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "lr[",
+    "snippet": "\\lr[{${1:content}}",
+    "doc": "Bracket pair opened by `[`, scaled to the content. Written as `\\lr[{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "lr{",
+    "snippet": "\\lr{{${1:content}}",
+    "doc": "Bracket pair opened by `{`, scaled to the content. Written as `\\lr{{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "lr|",
+    "snippet": "\\lr|{${1:content}}",
+    "doc": "Bracket pair opened by `|`, scaled to the content. Written as `\\lr|{content}`.",
+    "params": [
+      { "label": "content", "doc": "What the bracket scales with." }
+    ]
+  },
+  {
+    "name": "scale",
+    "snippet": "\\scale{${1:factor}}{${2:content}}",
+    "doc": "Scale the content by a factor (uses CSS zoom).",
+    "params": [
+      { "label": "factor", "doc": "Scale factor." },
+      { "label": "content", "doc": "The content." }
+    ]
+  },
+  {
+    "name": "scalew",
+    "snippet": "\\scalew{${1:factor}}{${2:content}}",
+    "doc": "Scale only the width of the content.",
+    "params": [
+      { "label": "factor", "doc": "Width scale factor." },
+      { "label": "content", "doc": "The content." }
+    ]
+  },
+  {
+    "name": "scaleh",
+    "snippet": "\\scaleh{${1:factor}}{${2:content}}",
+    "doc": "Scale only the height of the content.",
+    "params": [
+      { "label": "factor", "doc": "Height scale factor." },
+      { "label": "content", "doc": "The content." }
+    ]
+  },
+  {
+    "name": "rotate",
+    "snippet": "\\rotate{${1:degrees}}{${2:content}}",
+    "doc": "Rotate the content.",
+    "params": [
+      { "label": "degrees", "doc": "Rotation in degrees." },
+      { "label": "content", "doc": "The content." }
+    ]
+  },
+  {
+    "name": "mathbb",
+    "snippet": "\\mathbb{${1:content}}",
+    "doc": "Blackboard bold letters and digits, e.g. `\\mathbb{R}`.",
+    "params": [
+      { "label": "content", "doc": "ASCII letters / digits to convert." }
+    ]
+  },
+  {
+    "name": "mathcal",
+    "snippet": "\\mathcal{${1:content}}",
+    "doc": "Calligraphic letters, e.g. `\\mathcal{L}`.",
+    "params": [
+      { "label": "content", "doc": "ASCII letters to convert." }
+    ]
+  },
+  {
+    "name": "underline",
+    "snippet": "\\underline{${1:content}}",
+    "doc": "Line below the content.",
+    "params": [
+      { "label": "content", "doc": "The content." }
+    ]
+  },
+  {
+    "name": "overline",
+    "snippet": "\\overline{${1:content}}",
+    "doc": "Line above the content.",
+    "params": [
+      { "label": "content", "doc": "The content." }
+    ]
+  }
+]

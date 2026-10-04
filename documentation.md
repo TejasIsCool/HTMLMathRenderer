@@ -3,7 +3,7 @@
 To use the script, put this in the head of the script
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/TejasIsCool/MathToHTML@v0.1.5/dist/math-eq.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/TejasIsCool/MathToHTML@v0.1.6/dist/math-eq.min.js" defer></script>
 ```
 
 You can then enter your math equations in the body of the page like this

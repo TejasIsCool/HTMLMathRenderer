@@ -1,0 +1,12 @@
+{
+  "m-eq element": {
+    "prefix": "meq",
+    "body": ["<m-eq>$1</m-eq>"],
+    "description": "Math equation (whitespace preserved)"
+  },
+  "m-eqi element": {
+    "prefix": "meqi",
+    "body": ["<m-eqi>$1</m-eqi>"],
+    "description": "Math equation (whitespace not preserved)"
+  }
+}

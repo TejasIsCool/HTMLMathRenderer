@@ -110,9 +110,9 @@ export const escape_word_map = {
 	"eq": "=",
 	"equal": "=",
 	"equals": "=",
-	"lt": "&lt;", // As html doesn't rly like using <> freely
+	"lt": "<;",
 	"leq": "≤",
-	"gt": "&gt;",
+	"gt": ">",
 	"geq": "≥",
 	"neq": "≠",
 	"times": "×",

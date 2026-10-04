@@ -1,0 +1,5 @@
+.vscode/**
+*.vsix
+*.bak
+*.tmp
+generate-commands.mjs

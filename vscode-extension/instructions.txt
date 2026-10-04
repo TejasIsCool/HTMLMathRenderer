@@ -1,0 +1,5 @@
+// On adding new symbols and commands
+MathEngine> node vscode-extension/generate-commands.mjs
+
+// To build extension
+MathEngine\vscode-extension> npm run package

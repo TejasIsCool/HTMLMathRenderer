@@ -1,0 +1,82 @@
+{
+  "name": "math-eq-autocomplete",
+  "displayName": "m-eq Math Autocomplete",
+  "description": "Autocomplete, parameter hints, hover docs and live preview for <m-eq> equations (HTMLMathRenderer).",
+  "version": "0.1.6",
+  "publisher": "tejasiscool",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "math",
+    "latex",
+    "m-eq",
+    "autocomplete"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "mathEq.openPreview",
+        "title": "m-eq: Open Preview to the Side",
+        "icon": "$(open-preview)"
+      },
+      {
+        "command": "mathEq.reloadCommands",
+        "title": "m-eq: Reload commands.json"
+      }
+    ],
+    "configuration": {
+      "title": "m-eq Math Autocomplete",
+      "properties": {
+        "mathEq.languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "html",
+            "markdown"
+          ],
+          "description": "Language IDs in which \\commands are completed inside <m-eq> / <m-eqi> elements (e.g. add \"javascript\" or \"vue\")."
+        },
+        "mathEq.previewLibrary": {
+          "type": "string",
+          "default": "",
+          "description": "Force the preview to load math-eq.min.js from this path (absolute, or relative to the workspace folder) or https URL. Empty = use the <script src> of the current document, then ../dist, <workspace>/dist, then the latest build from jsDelivr."
+        }
+      }
+    },
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets.json"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "mathEq.openPreview",
+          "when": "resourceLangId == html || resourceLangId == markdown",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "generate": "node generate-commands.mjs",
+    "package": "npx @vscode/vsce package --allow-missing-repository --skip-license"
+  }
+}
