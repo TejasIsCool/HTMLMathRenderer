@@ -298,6 +298,34 @@ export function special_to_div(spec_element) {
 
 			return frac_div;
 		}
+		case "atop": {
+			let top = toElement(spec_element.data[0]);
+			let bottom = toElement(spec_element.data[1]);
+			let stack_div = document.createElement("span");
+
+			stack_div.style.display = "inline-flex";
+			stack_div.style.flexDirection = "column";
+			stack_div.style.alignItems = "center";
+			stack_div.style.verticalAlign = "middle";
+			stack_div.style.whiteSpace = "nowrap";
+			stack_div.style.lineHeight = "1";
+			stack_div.style.zoom = 0.8;
+
+			// Top item
+			let topSpan = document.createElement("span");
+			topSpan.style.display = "inline-block";
+			topSpan.style.paddingBottom = "0.1em"; // Gap between top and bottom
+			topSpan.appendChild(top);
+			stack_div.appendChild(topSpan);
+
+			// Bottom item
+			let botSpan = document.createElement("span");
+			botSpan.style.display = "inline-block";
+			botSpan.style.paddingTop = "0.1em";
+			botSpan.appendChild(bottom);
+			stack_div.appendChild(botSpan);
+			return stack_div;
+		}
 		case "attach": {
 			return attach(
 				toElement(spec_element.data[0]),
@@ -337,70 +365,35 @@ export function special_to_div(spec_element) {
 			)
 		}
 		case "left": {
-			// Remember, the braces in the first input will come in a div, due to the way braces are parsed
-			// so will need text content probably
-
-			let brace = spec_element.data[0].innerText;
-			let content = spec_element.data[1]
-
-			let sub_div = document.createElement("span")
-			sub_div.style.display = "inline-block"
-			sub_div.classList.add("math-brace-content")
-			// sub_div.style.zoom = 0.9;
-			sub_div.appendChild(content)
-
-
-			let out_div = document.createElement("span");
-			out_div.style.display = "inline-flex";
-			out_div.style.alignItems = "center"; // Center bracket with content
-			out_div.style.verticalAlign = "middle"; // Center the whole block with surrounding text like f(x) =
-
-			let outer_sub_div = document.createElement("span");
-
-			outer_sub_div.textContent = brace;
-			// I can't get the size of the inner div rn, cause its computed later. 
-			// So will have to update the scale later, and hence marking it with class
-			outer_sub_div.classList.add("math-brace-symbol")
-			outer_sub_div.style.transformOrigin = "center center";
-			outer_sub_div.style.lineHeight = "1";
-			outer_sub_div.style.display = "inline-block";
-
-			out_div.appendChild(outer_sub_div);
-
-			out_div.appendChild(sub_div);
-			return out_div;
+			let brace = spec_element.data[0].innerText || spec_element.data[0].textContent || "";
+			return createBraced(spec_element.data[1], brace, null);
 		}
 		case "right": {
-			let brace = spec_element.data[0].innerText;
-			let content = spec_element.data[1]
-
-			let sub_div = document.createElement("span")
-			sub_div.style.display = "inline-block"
-			sub_div.classList.add("math-brace-content")
-			// sub_div.style.zoom = 0.9;
-			sub_div.appendChild(content)
-
-
-			let out_div = document.createElement("span");
-			out_div.style.display = "inline-flex";
-			out_div.style.alignItems = "center"; // Center bracket with content
-			out_div.style.verticalAlign = "middle"; // Center the whole block with surrounding text like f(x) =
-
-			let outer_sub_div = document.createElement("span");
-
-			outer_sub_div.textContent = brace;
-			// I can't get the size of the inner div rn, cause its computed later. 
-			// So will have to update the scale later, and hence marking it with class
-			outer_sub_div.classList.add("math-brace-symbol")
-			outer_sub_div.style.transformOrigin = "center center";
-			outer_sub_div.style.lineHeight = "1";
-			outer_sub_div.style.display = "inline-block";
-
-			out_div.appendChild(sub_div);
-
-			out_div.appendChild(outer_sub_div);
-			return out_div;
+			let brace = spec_element.data[0].innerText || spec_element.data[0].textContent || "";
+			return createBraced(spec_element.data[1], null, brace);
 		}
+		case "lr": {
+			let text = spec_element.data[0].innerText || spec_element.data[0].textContent || "";
+			let left_brace = text[0];
+			let right_brace = text.slice(1);
+			if (right_brace.length === 0) {
+				const pairs = { "(": ")", "[": "]", "{": "}", "⌊": "⌋", "⌈": "⌉", "⟨": "⟩" };
+				right_brace = pairs[left_brace] || left_brace;
+			}
+			return createBraced(spec_element.data[1], left_brace, right_brace);
+		}
+		case "left[": return createBraced(spec_element.data[0], "[", null);
+		case "right]": return createBraced(spec_element.data[0], null, "]");
+		case "left(": return createBraced(spec_element.data[0], "(", null);
+		case "right)": return createBraced(spec_element.data[0], null, ")");
+		case "left{": return createBraced(spec_element.data[0], "{", null);
+		case "right}": return createBraced(spec_element.data[0], null, "}");
+		case "left|": return createBraced(spec_element.data[0], "|", null);
+		case "right|": return createBraced(spec_element.data[0], null, "|");
+		case "lr(": return createBraced(spec_element.data[0], "(", ")");
+		case "lr[": return createBraced(spec_element.data[0], "[", "]");
+		case "lr{": return createBraced(spec_element.data[0], "{", "}");
+		case "lr|": return createBraced(spec_element.data[0], "|", "|");
 		case "scale": {
 			let amount = parseFloat(spec_element.data[0].innerText, 10);
 			let content = toElement(spec_element.data[1]);
@@ -547,4 +540,62 @@ export function special_to_div(spec_element) {
 
 
 
+/**
+ * Wraps content with scalable math brackets.
+ * 
+ * Can be called as:
+ *  - Both:  createBraced(content, "(", ")")
+ *  - Left:  createBraced(content, "(", null)  OR  createBraced(content, "(", "left")
+ *  - Right: createBraced(content, null, ")")  OR  createBraced(content, ")", "right")
+ *
+ * @param {HTMLElement|string} content - Inner expression
+ * @param {string|null} leftOrBrace - Left bracket, or the bracket character if specifying side
+ * @param {string|null} [rightOrSide=null] - Right bracket, or "left" | "right"
+ * @returns {HTMLSpanElement}
+ */
+function createBraced(content, leftOrBrace = null, rightOrSide = null) {
+	let leftBrace = null;
+	let rightBrace = null;
 
+	// Support passing ("content", "[", "left") or ("content", "]", "right")
+	if (rightOrSide === "left") {
+		leftBrace = leftOrBrace;
+	} else if (rightOrSide === "right") {
+		rightBrace = leftOrBrace;
+	} else {
+		leftBrace = leftOrBrace;
+		rightBrace = rightOrSide;
+	}
+
+	const out_div = document.createElement("span");
+	out_div.style.display = "inline-flex";
+	out_div.style.alignItems = "center"; // Center bracket with content
+	out_div.style.verticalAlign = "middle"; // Align with surrounding text
+
+	const sub_div = document.createElement("span");
+	sub_div.style.display = "inline-block";
+	sub_div.classList.add("math-brace-content");
+	if (content) sub_div.append(content);
+
+	function makeSymbol(char) {
+		const span = document.createElement("span");
+		span.textContent = char;
+		span.classList.add("math-brace-symbol");
+		span.style.transformOrigin = "center center";
+		span.style.lineHeight = "1";
+		span.style.display = "inline-block";
+		return span;
+	}
+
+	if (leftBrace) {
+		out_div.appendChild(makeSymbol(leftBrace));
+	}
+
+	out_div.appendChild(sub_div);
+
+	if (rightBrace) {
+		out_div.appendChild(makeSymbol(rightBrace));
+	}
+
+	return out_div;
+}

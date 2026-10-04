@@ -111,7 +111,13 @@
     "Ps": "\u03A8",
     "Omega": "\u03A9",
     // Maths
+    "eq": "=",
+    "equal": "=",
+    "equals": "=",
+    "lt": "&lt;",
+    // As html doesn't rly like using <> freely
     "leq": "\u2264",
+    "gt": "&gt;",
     "geq": "\u2265",
     "neq": "\u2260",
     "times": "\xD7",
@@ -139,8 +145,10 @@
     "notin": "\u2209",
     "subset": "\u2282",
     "subseteq": "\u2286",
+    "subsetneq": "\u228A",
     "supset": "\u2283",
     "supseteq": "\u2287",
+    "supsetneq": "\u228B",
     "int": "\u222B\u200B",
     "intb": "\u222B",
     "iint": "\u222C",
@@ -170,6 +178,361 @@
     "LongLeftarrow": "\u27F8",
     "LongRightarrow": "\u27F9",
     "LongEquiv": "\u27FA",
+    "rightsquigarrow": "\u21DD",
+    "leftsquigarrow": "\u21DC",
+    "leftrightsquigarrow": "\u21AD",
+    // Arrows incoming
+    // Negated / basic extras
+    "nleftarrow": "\u219A",
+    "nrightarrow": "\u219B",
+    "nleftrightarrow": "\u21AE",
+    "nLeftarrow": "\u21CD",
+    "nRightarrow": "\u21CF",
+    "nLeftrightarrow": "\u21CE",
+    "Leftrightarrow": "\u21D4",
+    "updownarrow": "\u2195",
+    "Updownarrow": "\u21D5",
+    // Diagonal
+    "nwarrow": "\u2196",
+    "nearrow": "\u2197",
+    "searrow": "\u2198",
+    "swarrow": "\u2199",
+    "Nwarrow": "\u21D6",
+    "Nearrow": "\u21D7",
+    "Searrow": "\u21D8",
+    "Swarrow": "\u21D9",
+    // Maps
+    "mapsfrom": "\u21A4",
+    "mapsup": "\u21A5",
+    "mapsdown": "\u21A7",
+    "Mapsfrom": "\u2906",
+    "Mapsto": "\u2907",
+    "longmapsto": "\u27FC",
+    "longmapsfrom": "\u27FB",
+    "Longmapsfrom": "\u27FD",
+    "twoheadmapsto": "\u2905",
+    "twoheadmapsfrom": "\u2B36",
+    // Long
+    "longleftarrow": "\u27F5",
+    "longrightarrow": "\u27F6",
+    "longleftrightarrow": "\u27F7",
+    "longrightsquigarrow": "\u27FF",
+    "longleftsquigarrow": "\u2B33",
+    // Multiple / paired arrows
+    "Lleftarrow": "\u21DA",
+    "Rrightarrow": "\u21DB",
+    "upuparrows": "\u21C8",
+    "downdownarrows": "\u21CA",
+    "leftleftarrows": "\u21C7",
+    "rightrightarrows": "\u21C9",
+    "leftrightarrows": "\u21C6",
+    "rightleftarrow": "\u21C4",
+    "updownarrows": "\u21C5",
+    "downuparrows": "\u21F5",
+    "uparrowdownarrow": "\u21C5",
+    "downarrowuparrow": "\u21F5",
+    "rightthreearrows": "\u21F6",
+    "leftthreearrows": "\u2B31",
+    "rightarrowshortleftarrow": "\u2942",
+    "leftarrowshortrightarrow": "\u2943",
+    "shortrightarrowleftarrow": "\u2944",
+    "barleftarrowrightarrowba": "\u21B9",
+    // Tails, hooks, loops, curved
+    "leftarrowtail": "\u21A2",
+    "rightarrowtail": "\u21A3",
+    "looparrowleft": "\u21AB",
+    "looparrowright": "\u21AC",
+    "hookleftarrow": "\u21A9",
+    "hookrightarrow": "\u21AA",
+    "curvearrowleft": "\u21B6",
+    "curvearrowright": "\u21B7",
+    "circlearrowleft": "\u21BA",
+    "circlearrowright": "\u21BB",
+    "acwopencirclearrow": "\u21BA",
+    "cwopencirclearrow": "\u21BB",
+    "Lsh": "\u21B0",
+    "Rsh": "\u21B1",
+    "ldsh": "\u21B2",
+    "rdsh": "\u21B3",
+    "carriagereturn": "\u21B5",
+    "barovernorthwestarrow": "\u21B8",
+    "downzigzagarrow": "\u21AF",
+    "leftwavearrow": "\u219C",
+    "rightwavearrow": "\u219D",
+    "updownarrowbar": "\u21A8",
+    // Two-headed
+    "twoheadleftarrow": "\u219E",
+    "twoheaduparrow": "\u219F",
+    "twoheadrightarrow": "\u21A0",
+    "twoheaddownarrow": "\u21A1",
+    "twoheadrightarrowtail": "\u2916",
+    "twoheadleftarrowtail": "\u2B3B",
+    "twoheadleftdbkarrow": "\u2B37",
+    // Dashed, white, bar
+    "leftdasharrow": "\u21E0",
+    "updasharrow": "\u21E1",
+    "rightdasharrow": "\u21E2",
+    "downdasharrow": "\u21E3",
+    "dashleftarrow": "\u21E0",
+    "dashrightarrow": "\u21E2",
+    "barleftarrow": "\u21E4",
+    "rightarrowbar": "\u21E5",
+    "leftwhitearrow": "\u21E6",
+    "upwhitearrow": "\u21E7",
+    "rightwhitearrow": "\u21E8",
+    "downwhitearrow": "\u21E9",
+    "whitearrowupfrombar": "\u21EA",
+    "circleonrightarrow": "\u21F4",
+    "rightarrowtriangle": "\u21FE",
+    "leftarrowtriangle": "\u21FD",
+    "leftrightarrowtriangle": "\u21FF",
+    "nvleftarrow": "\u21F7",
+    "nvrightarrow": "\u21F8",
+    "nvleftrightarrow": "\u21F9",
+    "nVleftarrow": "\u21FA",
+    "nVrightarrow": "\u21FB",
+    "nVleftrightarrow": "\u21FC",
+    "nvLeftarrow": "\u2902",
+    "nvRightarrow": "\u2903",
+    "nvLeftrightarrow": "\u2904",
+    // Harpoons
+    "leftharpoonup": "\u21BC",
+    "leftharpoondown": "\u21BD",
+    "upharpoonright": "\u21BE",
+    "upharpoonleft": "\u21BF",
+    "rightharpoonup": "\u21C0",
+    "rightharpoondown": "\u21C1",
+    "downharpoonright": "\u21C2",
+    "downharpoonleft": "\u21C3",
+    "leftrightharpoons": "\u21CB",
+    "rightleftharpoons": "\u21CC",
+    "leftrightharpoonupdown": "\u294A",
+    "leftrightharpoondownup": "\u294B",
+    "updownharpoonrightleft": "\u294C",
+    "updownharpoonleftright": "\u294D",
+    "leftrightharpoonupup": "\u294E",
+    "updownharpoonrightright": "\u294F",
+    "leftrightharpoondowndown": "\u2950",
+    "updownharpoonleftleft": "\u2951",
+    "barleftharpoonup": "\u2952",
+    "rightharpoonupbar": "\u2953",
+    "barupharpoonright": "\u2954",
+    "downharpoonrightbar": "\u2955",
+    "barleftharpoondown": "\u2956",
+    "rightharpoondownbar": "\u2957",
+    "barupharpoonleft": "\u2958",
+    "downharpoonleftbar": "\u2959",
+    "leftharpoonupbar": "\u295A",
+    "barrightharpoonup": "\u295B",
+    "upharpoonrightbar": "\u295C",
+    "bardownharpoonright": "\u295D",
+    "leftharpoondownbar": "\u295E",
+    "barrightharpoondown": "\u295F",
+    "upharpoonleftbar": "\u2960",
+    "bardownharpoonleft": "\u2961",
+    "leftleftharpoons": "\u2962",
+    "upharpoonsleftright": "\u2963",
+    "rightrightharpoons": "\u2964",
+    "downharpoonsleftright": "\u2965",
+    "leftrightharpoonsup": "\u2966",
+    "leftrightharpoonsdown": "\u2967",
+    "rightleftharpoonsup": "\u2968",
+    "rightleftharpoonsdown": "\u2969",
+    "leftharpoonupdash": "\u296A",
+    "dashleftharpoondown": "\u296B",
+    "rightharpoonupdash": "\u296C",
+    "dashrightharpoondown": "\u296D",
+    "updownharpoonsleftright": "\u296E",
+    "downupharpoonsleftright": "\u296F",
+    "upequilibrium": "\u296E",
+    "uprevequilibrium": "\u296F",
+    // Tailed / barred / dotted variants
+    "nvrightarrowtail": "\u2914",
+    "nVrightarrowtail": "\u2915",
+    "nvtwoheadrightarrow": "\u2900",
+    "nVtwoheadrightarrow": "\u2901",
+    "nvtwoheadrightarrowtail": "\u2917",
+    "nVtwoheadrightarrowtail": "\u2918",
+    "nvtwoheadleftarrow": "\u2B34",
+    "nVtwoheadleftarrow": "\u2B35",
+    "nvleftarrowtail": "\u2B39",
+    "nVleftarrowtail": "\u2B3A",
+    "nvtwoheadleftarrowtail": "\u2B3C",
+    "nVtwoheadleftarrowtail": "\u2B3D",
+    "leftdotarrow": "\u2B38",
+    "rightdotarrow": "\u2911",
+    "leftbkarrow": "\u290C",
+    "rightbkarrow": "\u290D",
+    "leftdbkarrow": "\u290E",
+    "rightdbkarrow": "\u290F",
+    "drbkarrow": "\u2910",
+    "uparrowbarred": "\u2909",
+    "downarrowbarred": "\u2908",
+    "baruparrow": "\u2912",
+    "downarrowbar": "\u2913",
+    "leftdbltail": "\u291B",
+    "rightdbltail": "\u291C",
+    "diamondleftarrow": "\u291D",
+    "rightarrowdiamond": "\u291E",
+    "diamondleftarrowbar": "\u291F",
+    "barrightarrowdiamond": "\u2920",
+    "leftquaddarrow": "\u2B45",
+    "rightquaddarrow": "\u2B46",
+    // Curved arrows
+    "rightcurvedarrow": "\u2933",
+    "uprightcurvearrow": "\u2934",
+    "downrightcurvedarrow": "\u2935",
+    "leftdowncurvedarrow": "\u2936",
+    "rightdowncurvedarrow": "\u2937",
+    "cwrightarcarrow": "\u2938",
+    "acwleftarcarrow": "\u2939",
+    "acwoverarcarrow": "\u293A",
+    "acwunderarcarrow": "\u293B",
+    "curvearrowrightminus": "\u293C",
+    "curvearrowleftplus": "\u293D",
+    "cwundercurvearrow": "\u293E",
+    "ccwundercurvearrow": "\u293F",
+    "leftcurvedarrow": "\u2B3F",
+    "fdiagovnearrow": "\u292F",
+    "rdiagovsearrow": "\u2930",
+    // Circle arrows
+    "acwgapcirclearrow": "\u27F2",
+    "cwgapcirclearrow": "\u27F3",
+    "acwcirclearrow": "\u2940",
+    "cwcirclearrow": "\u2941",
+    "leftrightarrowcircle": "\u2948",
+    "twoheaduparrowcircle": "\u2949",
+    "rightarrowonoplus": "\u27F4",
+    "leftarrowonoplus": "\u2B32",
+    "circleonleftarrow": "\u2B30",
+    "uparrowoncircle": "\u29BD",
+    "circledownarrow": "\u29EC",
+    "blackcircledownarrow": "\u29ED",
+    "blackdiamonddownarrow": "\u29EA",
+    "rangledownzigzagarrow": "\u237C",
+    // Arrows combined with other symbols
+    "rightarrowplus": "\u2945",
+    "leftarrowplus": "\u2946",
+    "similarrightarrow": "\u2972",
+    "leftarrowsimilar": "\u2973",
+    "rightarrowsimilar": "\u2974",
+    "rightarrowapprox": "\u2975",
+    "leftarrowless": "\u2977",
+    "leftarrowsubset": "\u297A",
+    "equalrightarrow": "\u2971",
+    "equalleftarrow": "\u2B40",
+    "bsimilarleftarrow": "\u2B41",
+    "leftarrowbackapprox": "\u2B42",
+    "rightarrowgtr": "\u2B43",
+    "rightarrowsupset": "\u2B44",
+    "bsimilarrightarrow": "\u2B47",
+    "rightarrowbackapprox": "\u2B48",
+    "similarleftarrow": "\u2B49",
+    "leftarrowapprox": "\u2B4A",
+    "leftarrowbsimilar": "\u2B4B",
+    "rightarrowbsimilar": "\u2B4C",
+    "draftingarrow": "\u279B",
+    // Combining arrows (accents)
+    "overleftarrow": "\u20D6",
+    "overrightarrow": "\u20D7",
+    "overleftrightarrow": "\u20E1",
+    "leftharpoonaccent": "\u20D0",
+    "rightharpoonaccent": "\u20D1",
+    "underrightharpoondown": "\u20EC",
+    "underleftharpoondown": "\u20ED",
+    "underleftarrow": "\u20EE",
+    "underrightarrow": "\u20EF",
+    // More from data.py
+    "leftrightharpoondown": "\u2950",
+    "rightharpoonsupdown": "\u2964",
+    "upharpoonrightdown": "\u21C2",
+    "leftrightharpoonup": "\u294E",
+    "rightupdownharpoon": "\u294F",
+    "leftharpoonsupdown": "\u2962",
+    "upharpoonleftdown": "\u21C3",
+    "leftupdownharpoon": "\u2951",
+    "upharpoonrightup": "\u21BE",
+    "leftrightharpoon": "\u294A",
+    "rightleftharpoon": "\u294B",
+    "downdownharpoons": "\u2965",
+    "upharpoonleftup": "\u21BF",
+    "rightbarharpoon": "\u296C",
+    "barrightharpoon": "\u296D",
+    "revequilibrium": "\u21CB",
+    "longmappedfrom": "\u27FB",
+    "Longmappedfrom": "\u27FD",
+    "leftbarharpoon": "\u296A",
+    "barleftharpoon": "\u296B",
+    "updownharpoons": "\u296E",
+    "downupharpoons": "\u296F",
+    "RightArrowBar": "\u21E5",
+    "LeftArrowBar": "\u21E4",
+    "DownArrowBar": "\u2913",
+    "upupharpoons": "\u2963",
+    "equilibrium": "\u21CC",
+    "nHdownarrow": "\u21DF",
+    "seovnearrow": "\u292D",
+    "neovsearrow": "\u292E",
+    "neovnwarrow": "\u2931",
+    "nwovnearrow": "\u2932",
+    "rightarrowx": "\u2947",
+    "RRightarrow": "\u2B46",
+    "mappedfrom": "\u21A4",
+    "DDownarrow": "\u27F1",
+    "Mappedfrom": "\u2906",
+    "Ddownarrow": "\u290B",
+    "UpArrowBar": "\u2912",
+    "rightimply": "\u2970",
+    "leftarrowx": "\u2B3E",
+    "LLeftarrow": "\u2B45",
+    "lightning": "\u21AF",
+    "Lightning": "\u21AF",
+    "nHuparrow": "\u21DE",
+    "dasharrow": "\u21E2",
+    "impliedby": "\u27F8",
+    "righttail": "\u291A",
+    "nwsearrow": "\u2921",
+    "neswarrow": "\u2922",
+    "hknwarrow": "\u2923",
+    "hknearrow": "\u2924",
+    "linefeed": "\u21B4",
+    "UUparrow": "\u27F0",
+    "Uuparrow": "\u290A",
+    "drbkarow": "\u2910",
+    "lefttail": "\u2919",
+    "hksearow": "\u2925",
+    "hkswarow": "\u2926",
+    "dbkarow": "\u290F",
+    "leadsto": "\u2933",
+    "subrarr": "\u2979",
+    "suplarr": "\u297B",
+    "ltlarr": "\u2976",
+    "gtrarr": "\u2978",
+    "gets": "\u2190",
+    "dlsh": "\u21B2",
+    "Ldsh": "\u21B2",
+    "drsh": "\u21B3",
+    "Rdsh": "\u21B3",
+    // CamelCase vector aliases
+    "RightDownVectorBar": "\u2955",
+    "DownRightVectorBar": "\u2957",
+    "RightDownTeeVector": "\u295D",
+    "DownRightTeeVector": "\u295F",
+    "DownLeftVectorBar": "\u2956",
+    "LeftDownVectorBar": "\u2959",
+    "DownLeftTeeVector": "\u295E",
+    "LeftDownTeeVector": "\u2961",
+    "RightUpVectorBar": "\u2954",
+    "RightUpTeeVector": "\u295C",
+    "LeftUpVectorBar": "\u2958",
+    "LeftUpTeeVector": "\u2960",
+    "RightVectorBar": "\u2953",
+    "RightTeeVector": "\u295B",
+    "LeftVectorBar": "\u2952",
+    "LeftTeeVector": "\u295A",
+    // Maps (extra)
+    "MapsDown": "\u21A7",
+    "MapsUp": "\u21A5",
     "^": "^",
     // Like printing the characters, not actually using them
     "_": "_",
@@ -178,7 +541,13 @@
     "exists": "\u2203",
     "therefore": "\u2234",
     "because": "\u2235",
-    "since": "\u2235"
+    "since": "\u2235",
+    "lfloor": "\u230A",
+    "rfloor": "\u230B",
+    "lceil": "\u2308",
+    "rceil": "\u2309",
+    "langle": "\u27E8",
+    "rangle": "\u27E9"
   };
   var escape_word_list = Object.keys(escape_word_map).sort((a, b) => b.length - a.length);
   escape_word_list.push(...[
@@ -193,6 +562,8 @@
     // \cancel{dir}{stuff} Cancels in specified directions: trbl (top right bottom left), tlbr (top left bottom right), ud (up to down), lr (left to right)
     "frac",
     // \frac{a}{b} is explicitly division, so a above b with a horizontal line between
+    "atop",
+    // \atop{a}{b} is like frac, but without the horizontal line
     "root",
     "attach",
     // \attach{}{}{}{}{}{}{}
@@ -206,6 +577,20 @@
     // \left {(}{....}, the first input is what kind of bracket, the other is the content it is scaled with
     "right",
     // same iea
+    "lr",
+    // \lr{ab}{content} -> becomes a{content}b, where a and b scale with the content. By default, if multiple characters, itll use first character for a, and rest for b.
+    "left[",
+    "right]",
+    "left(",
+    "right)",
+    "left{",
+    "right}",
+    "left|",
+    "right|",
+    "lr(",
+    "lr[",
+    "lr{",
+    "lr|",
     // to make matrix, \left {[}{\right{]}{..tablesomehow...}} // so these should not scale stuff
     // if want to use curly braces, must backslash them, so \left{\{}{....}
     // these can be multilined as they will scale with the content, should be able to make similar to sqrt
@@ -222,8 +607,8 @@
     "underline",
     "overline"
   ]);
-  var single_pop_list = ["sqrt", "cancel", "mathbb", "mathcal", "underline", "overline"];
-  var double_pop_list = ["over", "under", "frac", "root", "left", "right", "scale", "scalew", "scaleh", "rotate", "cancelangle", "canceldir"];
+  var single_pop_list = ["sqrt", "cancel", "mathbb", "mathcal", "underline", "overline", "left[", "right]", "left(", "right)", "left{", "right}", "left|", "right|", "lr(", "lr[", "lr{", "lr|"];
+  var double_pop_list = ["over", "under", "frac", "atop", "root", "left", "right", "scale", "scalew", "scaleh", "rotate", "cancelangle", "canceldir", "lr"];
   var custom_handling_list = ["attach", "attacho", "attachos"];
   var updown_modifier = ["\u03A3", "\u220F", "\u222A", "\u2229", "\u222B", "\u222C", "\u222D", "\u222E"];
   var mathbb_map = {
@@ -779,6 +1164,29 @@
         frac_div.appendChild(denSpan);
         return frac_div;
       }
+      case "atop": {
+        let top = toElement(spec_element.data[0]);
+        let bottom = toElement(spec_element.data[1]);
+        let stack_div = document.createElement("span");
+        stack_div.style.display = "inline-flex";
+        stack_div.style.flexDirection = "column";
+        stack_div.style.alignItems = "center";
+        stack_div.style.verticalAlign = "middle";
+        stack_div.style.whiteSpace = "nowrap";
+        stack_div.style.lineHeight = "1";
+        stack_div.style.zoom = 0.8;
+        let topSpan = document.createElement("span");
+        topSpan.style.display = "inline-block";
+        topSpan.style.paddingBottom = "0.1em";
+        topSpan.appendChild(top);
+        stack_div.appendChild(topSpan);
+        let botSpan = document.createElement("span");
+        botSpan.style.display = "inline-block";
+        botSpan.style.paddingTop = "0.1em";
+        botSpan.appendChild(bottom);
+        stack_div.appendChild(botSpan);
+        return stack_div;
+      }
       case "attach": {
         return attach(
           toElement(spec_element.data[0]),
@@ -817,47 +1225,47 @@
         );
       }
       case "left": {
-        let brace = spec_element.data[0].innerText;
-        let content = spec_element.data[1];
-        let sub_div = document.createElement("span");
-        sub_div.style.display = "inline-block";
-        sub_div.classList.add("math-brace-content");
-        sub_div.appendChild(content);
-        let out_div = document.createElement("span");
-        out_div.style.display = "inline-flex";
-        out_div.style.alignItems = "center";
-        out_div.style.verticalAlign = "middle";
-        let outer_sub_div = document.createElement("span");
-        outer_sub_div.textContent = brace;
-        outer_sub_div.classList.add("math-brace-symbol");
-        outer_sub_div.style.transformOrigin = "center center";
-        outer_sub_div.style.lineHeight = "1";
-        outer_sub_div.style.display = "inline-block";
-        out_div.appendChild(outer_sub_div);
-        out_div.appendChild(sub_div);
-        return out_div;
+        let brace = spec_element.data[0].innerText || spec_element.data[0].textContent || "";
+        return createBraced(spec_element.data[1], brace, null);
       }
       case "right": {
-        let brace = spec_element.data[0].innerText;
-        let content = spec_element.data[1];
-        let sub_div = document.createElement("span");
-        sub_div.style.display = "inline-block";
-        sub_div.classList.add("math-brace-content");
-        sub_div.appendChild(content);
-        let out_div = document.createElement("span");
-        out_div.style.display = "inline-flex";
-        out_div.style.alignItems = "center";
-        out_div.style.verticalAlign = "middle";
-        let outer_sub_div = document.createElement("span");
-        outer_sub_div.textContent = brace;
-        outer_sub_div.classList.add("math-brace-symbol");
-        outer_sub_div.style.transformOrigin = "center center";
-        outer_sub_div.style.lineHeight = "1";
-        outer_sub_div.style.display = "inline-block";
-        out_div.appendChild(sub_div);
-        out_div.appendChild(outer_sub_div);
-        return out_div;
+        let brace = spec_element.data[0].innerText || spec_element.data[0].textContent || "";
+        return createBraced(spec_element.data[1], null, brace);
       }
+      case "lr": {
+        let text = spec_element.data[0].innerText || spec_element.data[0].textContent || "";
+        let left_brace = text[0];
+        let right_brace = text.slice(1);
+        if (right_brace.length === 0) {
+          const pairs = { "(": ")", "[": "]", "{": "}", "\u230A": "\u230B", "\u2308": "\u2309", "\u27E8": "\u27E9" };
+          right_brace = pairs[left_brace] || left_brace;
+        }
+        return createBraced(spec_element.data[1], left_brace, right_brace);
+      }
+      case "left[":
+        return createBraced(spec_element.data[0], "[", null);
+      case "right]":
+        return createBraced(spec_element.data[0], null, "]");
+      case "left(":
+        return createBraced(spec_element.data[0], "(", null);
+      case "right)":
+        return createBraced(spec_element.data[0], null, ")");
+      case "left{":
+        return createBraced(spec_element.data[0], "{", null);
+      case "right}":
+        return createBraced(spec_element.data[0], null, "}");
+      case "left|":
+        return createBraced(spec_element.data[0], "|", null);
+      case "right|":
+        return createBraced(spec_element.data[0], null, "|");
+      case "lr(":
+        return createBraced(spec_element.data[0], "(", ")");
+      case "lr[":
+        return createBraced(spec_element.data[0], "[", "]");
+      case "lr{":
+        return createBraced(spec_element.data[0], "{", "}");
+      case "lr|":
+        return createBraced(spec_element.data[0], "|", "|");
       case "scale": {
         let amount = parseFloat(spec_element.data[0].innerText, 10);
         let content = toElement(spec_element.data[1]);
@@ -982,6 +1390,43 @@
         throw Error(`Unimplemented special expression ${spec_element.name}`);
     }
   }
+  function createBraced(content, leftOrBrace = null, rightOrSide = null) {
+    let leftBrace = null;
+    let rightBrace = null;
+    if (rightOrSide === "left") {
+      leftBrace = leftOrBrace;
+    } else if (rightOrSide === "right") {
+      rightBrace = leftOrBrace;
+    } else {
+      leftBrace = leftOrBrace;
+      rightBrace = rightOrSide;
+    }
+    const out_div = document.createElement("span");
+    out_div.style.display = "inline-flex";
+    out_div.style.alignItems = "center";
+    out_div.style.verticalAlign = "middle";
+    const sub_div = document.createElement("span");
+    sub_div.style.display = "inline-block";
+    sub_div.classList.add("math-brace-content");
+    if (content) sub_div.append(content);
+    function makeSymbol(char) {
+      const span = document.createElement("span");
+      span.textContent = char;
+      span.classList.add("math-brace-symbol");
+      span.style.transformOrigin = "center center";
+      span.style.lineHeight = "1";
+      span.style.display = "inline-block";
+      return span;
+    }
+    if (leftBrace) {
+      out_div.appendChild(makeSymbol(leftBrace));
+    }
+    out_div.appendChild(sub_div);
+    if (rightBrace) {
+      out_div.appendChild(makeSymbol(rightBrace));
+    }
+    return out_div;
+  }
 
   // src/parser.js
   function sense_maker(str) {
@@ -992,7 +1437,7 @@
     let expression_array = [];
     while (current_character_index < tokens.length) {
       if (tokens[current_character_index] == "\\") {
-        if (current_character_index + 1 < tokens.length && tokens[current_character_index + 1] == "{" || tokens[current_character_index + 1] == "}") {
+        if (current_character_index + 1 < tokens.length && (tokens[current_character_index + 1] == "{" || tokens[current_character_index + 1] == "}")) {
           expression_array.push(tokens[current_character_index + 1]);
           current_character_index += 2;
           continue;

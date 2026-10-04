@@ -7,7 +7,7 @@ The rendered equations are not images, but still text elements, so they are sele
 ## Usage
 Just import the library by
 ```html
-<script src="https://cdn.jsdelivr.net/gh/TejasIsCool/MathToHTML@v0.1.4/dist/math-eq.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/TejasIsCool/MathToHTML@v0.1.5/dist/math-eq.min.js" defer></script>
 ```
 in your html file.
 (Or you can download the `dist/math-eq.min.js` and import it with defer).

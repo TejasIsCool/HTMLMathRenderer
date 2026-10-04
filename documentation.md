@@ -3,7 +3,7 @@
 To use the script, put this in the head of the script
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/TejasIsCool/MathToHTML@v0.1.4/dist/math-eq.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/TejasIsCool/MathToHTML@v0.1.5/dist/math-eq.min.js" defer></script>
 ```
 
 You can then enter your math equations in the body of the page like this
@@ -190,6 +190,9 @@ To use these symbols, just write `\command`, where the command is the command of
 
     | Symbol | Command | Alias(es) |
     |:---:|---|---|
+    | = | `eq` | `equal`, `equals` |
+    | < | `lt` | - |
+    | > | `gt` | - |
     | ≤ | `leq` | - |
     | ≥ | `geq` | - |
     | ≠ | `neq` | - |
@@ -235,6 +238,12 @@ To use these symbols, just write `\command`, where the command is the command of
     | Symbol | Command | Alias(es) |
     |:---:|---|---|
     | ∞ | `infty` | - |
+    | ⌊ | `lfloor` | - |
+    | ⌋ | `rfloor` | - |
+    | ⌈ | `lceil` | - |
+    | ⌉ | `rceil` | - |
+    | ⟨ | `langle` | - |
+    | ⟩ | `rangle` | - |
 
     ---
 
@@ -263,6 +272,8 @@ To use these symbols, just write `\command`, where the command is the command of
     | ⟷ | `Longleftrightarrow` | - |
     | ⟼ | `Longmapsto` | - |
     | ⟺ | `LongEquiv` | - |
+
+    More kinds of arrows are supported, to get a full list, go to [Arrow documentation](./documentation_arrows.md)
 
 
     #### Literal / Escape Characters

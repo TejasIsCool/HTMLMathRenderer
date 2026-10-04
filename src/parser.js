@@ -40,7 +40,7 @@ export function tex_to_div(tokens) {
 	while (current_character_index < tokens.length) {
 		// Need to handle braces here, not after, as then considered expression
 		if (tokens[current_character_index] == "\\") {
-			if (current_character_index + 1 < tokens.length && tokens[current_character_index + 1] == "{" || tokens[current_character_index+1] == "}") {
+			if (current_character_index + 1 < tokens.length && (tokens[current_character_index + 1] == "{" || tokens[current_character_index+1] == "}")) {
 				expression_array.push(tokens[current_character_index+1]);
 				current_character_index += 2;
 				continue;
