@@ -55,6 +55,7 @@ You can also group stuff inside groups, recursively! So `{{{{Also works}}}}`.\
         is equivalent to
         <m-eq>\lr({\atop{n}{r}}</m-eq>
         ```
+        You can do `\left[{...}`, `\left({...}`, `\left\{{...}`, `\left|{...}`, and similar for `right` and `lr`
         
     - Overline and Underline:
         - `\overline{content}`: Draws a horizontal line above the content. Shorter or taller text/content will auto adjust the line position.
