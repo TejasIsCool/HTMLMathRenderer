@@ -86,7 +86,7 @@ You can also group stuff inside groups, recursively! So `{{{{Also works}}}}`.\
         - `\attach{main}{tr}{br}{tl}{bl}{up}{down}`: Attaches the scripts to the main element. The first argument is the main element, and the rest are the scripts. The order is top-right, bottom-right, top-left, bottom-left, up, down. If you don't want to use a script, just leave it empty.\
         Example: Suppose i wanted to attach text both above and below a line, I would do this:
             ```html
-            <m-eq>\attach{AB}{}{}{Above}{Below}{}{}\end{m-eq}
+            <m-eq>\attach{AB}{}{}{}{}{Above}{Below}</m-eq>
             ```
         - `\attacho{main}{tr}{br}{tl}{bl}{up}{down}{overlap}`: Same as above, but with an overlap parameter. This will pull the scripts closer to the main element. The overlap is in ems, so `0.3em` is a good value, that the attach function uses by default.
         - `\attachos{main}{tr}{br}{tl}{bl}{up}{down}{overlap}{scale}`: Same as above, but with both an overlap parameter and a custom scale for the scripts. The scale allows you to change the size of the attached elements. By default, attach uses a scale of `0.6`, but you can change it to whatever you want with this.\
