@@ -159,6 +159,38 @@ const hoverProvider = {
   },
 };
 
+// ---------------------------------------------------------------- Tab inside placeholders
+//
+// While a snippet like \frac{numerator}{denominator} is active and the user types into a
+// placeholder, other providers (Emmet reads "frac{123}" as an abbreviation, word suggestions...)
+// can pop up the suggestion widget, and then Tab *accepts that suggestion* instead of jumping to
+// the next placeholder. So inside an equation we make Tab jump anyway, except while the user is
+// in the middle of typing a \command (then Tab should accept our own completion as usual).
+
+let tabJumps = false;
+
+function updateTabContext() {
+  let value = false;
+  const editor = vscode.window.activeTextEditor;
+  const languages = vscode.workspace.getConfiguration('mathEq').get('languages', ['html', 'markdown']);
+  if (editor && languages.includes(editor.document.languageId)) {
+    const pos = editor.selection.active;
+    if (equationBefore(editor.document, pos) !== undefined) {
+      const lineBefore = editor.document.lineAt(pos.line).text.slice(0, pos.character);
+      value = !/\\[A-Za-z]*$/.test(lineBefore);
+    }
+  }
+  if (value !== tabJumps) {
+    tabJumps = value;
+    vscode.commands.executeCommand('setContext', 'mathEq.tabJumps', value);
+  }
+}
+
+async function nextPlaceholder() {
+  await vscode.commands.executeCommand('hideSuggestWidget');
+  await vscode.commands.executeCommand('jumpToNextSnippetPlaceholder');
+}
+
 // ---------------------------------------------------------------- activation
 
 function register() {
@@ -185,8 +217,12 @@ function activate(context) {
     vscode.workspace.onDidChangeConfiguration((e) => {
       if (e.affectsConfiguration('mathEq.languages')) register();
     }),
-    vscode.commands.registerCommand('mathEq.reloadCommands', () => loadCommands(true))
+    vscode.commands.registerCommand('mathEq.reloadCommands', () => loadCommands(true)),
+    vscode.commands.registerCommand('mathEq.nextPlaceholder', nextPlaceholder),
+    vscode.window.onDidChangeTextEditorSelection(updateTabContext),
+    vscode.window.onDidChangeActiveTextEditor(updateTabContext)
   );
+  updateTabContext();
 }
 
 function deactivate() {}

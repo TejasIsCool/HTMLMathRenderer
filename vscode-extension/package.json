@@ -32,6 +32,10 @@
       {
         "command": "mathEq.reloadCommands",
         "title": "m-eq: Reload commands.json"
+      },
+      {
+        "command": "mathEq.nextPlaceholder",
+        "title": "m-eq: Jump to Next Placeholder"
       }
     ],
     "configuration": {
@@ -73,7 +77,14 @@
           "group": "navigation"
         }
       ]
-    }
+    },
+    "keybindings": [
+      {
+        "command": "mathEq.nextPlaceholder",
+        "key": "tab",
+        "when": "editorTextFocus && !editorReadonly && inSnippetMode && hasNextTabstop && suggestWidgetVisible && mathEq.tabJumps"
+      }
+    ]
   },
   "scripts": {
     "generate": "node generate-commands.mjs",
